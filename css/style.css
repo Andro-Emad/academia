@@ -1,0 +1,52 @@
+/* 15.02.2022 */
+body {
+  background-image: url(../image/eds-min.jpg);
+
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+  background-position: center;
+  position: relative;
+}
+.father {
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  left: 10%;
+  top: 57%;
+  text-align: center;
+  font-family: sans-serif;
+}
+.box1 {
+  background-color: #00000082;
+  color: #fff;
+  padding: 25px;
+  width: 80px;
+  transition: 0.4s;
+}
+.box1:hover {
+  transform: translateY(-10px);
+  background-color: #000000a1;
+  color: gold;
+}
+.icon {
+  font-size: 37px;
+}
+.box2 {
+  position: absolute;
+  left: 10%;
+  top: 85%;
+  background-color: #00000082;
+  padding: 10px;
+  width: 245px;
+  display: inline-block;
+  text-align: inherit;
+  color: #fff;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.box2 a {
+  color: #fff;
+  text-decoration: none;
+}
