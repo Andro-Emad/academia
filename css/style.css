@@ -50,3 +50,7 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.box2 a:hover{
+    color: gold;
+
+}
